@@ -3,15 +3,14 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #0FA4AF; /* Background of the whole page */
+    background-color: #0FA4AF;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
 }
 
-/* Navbar Styling */
 .navbar {
-    background-color: #024950; /* Navbar color */
+    background-color: #024950;
     color: white;
     padding: 15px;
     text-align: center;
@@ -25,7 +24,6 @@ body {
     font-size: 24px;
 }
 
-/* Background Remover Tool Styling */
 .bg-remover-tool {
     margin: 20px auto;
     padding: 20px;
@@ -63,19 +61,36 @@ body {
     background-color: #45a049;
 }
 
-/* Footer Styling */
+#resultContainer {
+    margin-top: 20px;
+}
+
+#resultImage {
+    max-width: 100%;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+#downloadButton {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    display: inline-block;
+}
+
+#downloadButton:hover {
+    background-color: #0056b3;
+}
+
 .footer {
     margin-top: auto;
-    background-color: #024950; /* Same as Navbar color */
+    background-color: #024950;
     color: white;
     text-align: center;
     padding: 10px 0;
     font-size: 14px;
-}
-
-/* Responsive Styling */
-@media (max-width: 768px) {
-    .bg-remover-tool {
-        padding: 15px;
-    }
 }
