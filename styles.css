@@ -1,0 +1,81 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0FA4AF; /* Background of the whole page */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Navbar Styling */
+.navbar {
+    background-color: #024950; /* Navbar color */
+    color: white;
+    padding: 15px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar .logo h2 {
+    margin: 0;
+    font-size: 24px;
+}
+
+/* Background Remover Tool Styling */
+.bg-remover-tool {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+    max-width: 600px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.bg-remover-tool h3 {
+    margin-bottom: 15px;
+    font-size: 18px;
+    color: #333;
+}
+
+.bg-remover-tool input[type="file"] {
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 16px;
+}
+
+.bg-remover-tool button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.bg-remover-tool button:hover {
+    background-color: #45a049;
+}
+
+/* Footer Styling */
+.footer {
+    margin-top: auto;
+    background-color: #024950; /* Same as Navbar color */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+    .bg-remover-tool {
+        padding: 15px;
+    }
+}
